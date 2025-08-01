@@ -1,0 +1,163 @@
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(22, 21, 21);
+    height:300vh;
+    display: flex;
+    /* align-content: center; */
+}
+.container{
+    display: flex;
+    height: 200vh;
+    width: 70vw;
+    background-color: rgb(133, 129, 125);
+    margin: 200px;
+    margin-top:60px;
+    
+}
+
+.column-bar{
+    
+    height: 180vh;
+    width: 20vw;
+    background-color: rgb(68, 61, 61);
+    margin-top: 5vh;
+    margin-left: 5vw;
+    border-top-left-radius: 200px; 
+    border-top-right-radius: 200px; 
+    
+}
+/* .profile-picture{
+    /* height:150px;
+    width:150px; 
+    height: 35vh;
+    width:35vh;
+    border-radius: 50% ;
+    padding-left: 30px;
+    padding-top: 30px;
+} */
+.profile-picture {
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    /* margin-bottom: 30px; */
+    object-fit: cover; 
+    border: 5px solid rgba(255, 255, 255, 0.3);
+    align-self: center;
+    margin-left: 30px;
+    margin-top:30px;
+}
+#about-me-bar{
+    margin-top:15px;
+    margin-bottom:10px;
+    display :flex;
+    width: 23vw;
+    height:50px;
+    background-color: rgb(34, 33, 33);
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.about-me-para{
+    padding:10px;
+
+    
+}
+#skills-bar{
+    margin-top:20px;
+    margin-bottom:20px;
+    display :flex;
+    width: 23vw;
+    height:50px;
+    background-color: rgb(34, 33, 33);
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.skills-category{
+    margin-top:20px;
+    margin-bottom:20px;
+    padding-left: 40px;
+    
+}
+
+.skills-list{
+    padding-left: 20px;
+}
+#contact-me-bar{
+    margin-top:20px;
+    margin-bottom:20px;
+    display :flex;
+    width: 23vw;
+    height:50px;
+    background-color: rgb(34, 33, 33);
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.contact-item{
+    margin:10px;
+}
+.details{
+    /* background-color: aliceblue; */
+    height: 170vh;
+    width: 35vw;
+    margin-top: 100px;
+    margin-left:70px;
+    padding: 40px;
+}
+.name{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 10px;
+}
+.heading{
+    text-align: center;
+    
+}
+#education-bar{
+    margin-top:150px;
+    margin-bottom:20px;
+    display :flex;
+    width: 41vw;
+    height:50px;
+    background-color: rgb(34, 33, 33);
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left:-110px;
+ 
+}
+
+#department, #session,#institute{
+    margin-top:5px;
+    margin-bottom: 5px;
+    font-size:larger;
+    font-weight: 700;
+}
+#project-bar{
+    margin-top:100px;
+    margin-bottom:20px;
+    display :flex;
+    width: 41vw;
+    height:50px;
+    background-color: rgb(34, 33, 33);
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left:-110px;
+ 
+}
+.project-title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
